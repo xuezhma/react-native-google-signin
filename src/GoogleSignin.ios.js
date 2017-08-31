@@ -148,6 +148,4 @@ class GoogleSignin {
   }
 }
 
-const GoogleSigninSingleton = new GoogleSignin();
-
-module.exports = {GoogleSignin: GoogleSigninSingleton, GoogleSigninButton};
+module.exports = {GoogleSignin, GoogleSigninButton};

@@ -173,4 +173,4 @@ class GoogleSignin {
   }
 }
 
-module.exports = { GoogleSignin: new GoogleSignin(), GoogleSigninButton };
+module.exports = { GoogleSignin: GoogleSignin, GoogleSigninButton };
